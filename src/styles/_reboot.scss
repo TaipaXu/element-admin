@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    // background-color: #fff;
+    // overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.2;
+    font-size: 1rem;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+svg {
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

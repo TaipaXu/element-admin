@@ -1,0 +1,48 @@
+@import 'reboot';
+// @import 'reboot-element';
+
+.page {
+    height: 100%;
+}
+
+.queries {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .el-button + .el-button {
+        margin-left: 0;
+    }
+
+    & > * {
+        margin-bottom: 10px;
+
+        &:nth-child(n + 1) {
+            margin-right: 15px;
+        }
+    }
+}
+
+.query {
+    // & + & {
+    //     margin-left: 15px;
+    // }
+}
+
+// .table__controls, .table__selection {
+//     div {
+//         text-align: center;
+//     }
+// }
+
+.table {
+    &__column {
+        &--center {
+            .cell {
+                text-align: center;
+            }
+        }
+    }
+}

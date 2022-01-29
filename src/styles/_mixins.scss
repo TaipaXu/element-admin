@@ -1,0 +1,15 @@
+@import 'mixins/hover';
+@import 'mixins/buttons';
+@import './mixins/breakpoints';
+
+@import 'mixins/border-radius';
+@import 'mixins/box-shadow';
+
+/* Mixins */
+@mixin clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
