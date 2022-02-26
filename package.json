@@ -16,7 +16,7 @@
     "url": "https://github.com/TaipaXu"
   },
   "scripts": {
-    "build": "vite build && scripts/extensions.py",
+    "build": "vite build",
     "dev": "vite & ./node_modules/http-server/bin/http-server ./extensions/ -p 4000",
     "serve": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue src extensions vite.config.ts *.ts *.js --fix"
