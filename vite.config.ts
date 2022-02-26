@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import AutoImport from 'unplugin-auto-import/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import Inspect from 'vite-plugin-inspect';
+import copy from "rollup-plugin-copy";
 
 const resolve = (dir: string) => {
     return path.resolve(__dirname, ".", dir);
@@ -36,12 +37,20 @@ export default defineConfig({
     },
     plugins: [
         vue(),
+
         AutoImport({
             imports: ['vue',],
 
             resolvers: [ElementPlusResolver(),],
 
             dts: path.resolve(typesDir, 'auto-imports.d.ts'),
+        }),
+
+        copy({
+            targets: [
+                { src: "extensions", dest: "dist", },
+            ],
+            hook: "writeBundle",
         }),
 
         Inspect(),
