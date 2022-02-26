@@ -26,8 +26,6 @@ $ npm run dev
 
 ## Building
 
-Python3 is required.
-
 ```sh
 $ npm run build
 ```
