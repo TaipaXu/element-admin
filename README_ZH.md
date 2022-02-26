@@ -26,8 +26,6 @@ $ npm run dev
 
 ## 打包
 
-需要安装 Python3
-
 ```sh
 $ npm run build
 ```
