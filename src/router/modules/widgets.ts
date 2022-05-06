@@ -77,6 +77,12 @@ const routes: MBaseView[] = [
                 path: 'clipboard',
                 page: () => import('@/pages/clipboard.vue'),
             }),
+            new MInnerView({
+                name: 'video',
+                title: 'message.routes.widgets.video',
+                path: 'video',
+                page: () => import('@/pages/video.vue'),
+            }),
         ],
     }),
 ];

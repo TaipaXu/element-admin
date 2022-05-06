@@ -17,6 +17,7 @@ export default {
         loading: 'Loading',
         messages: 'Messages',
         clipboard: 'Clipboard',
+        video: 'Video',
     },
     table: {
         name: 'Table',

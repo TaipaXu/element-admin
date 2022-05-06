@@ -17,6 +17,7 @@ export default {
         loading: '加载',
         messages: '消息',
         clipboard: '粘贴板',
+        video: '视频',
     },
     table: {
         name: '表格',
