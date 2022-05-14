@@ -1,3 +1,4 @@
 export default {
-    take: '截屏',
+    screenshot: '截屏',
+    dom: 'Dom',
 };
