@@ -8,6 +8,7 @@ import widgetsRoutes from './modules/widgets';
 import tableRoutes from './modules/table';
 import formsRoutes from './modules/forms';
 import chartsRoutes from './modules/charts';
+import utilsRoutes from './modules/utils';
 import nestedRoutes from './modules/nestedRoutes';
 import extensionRoutes from './modules/extension';
 import { guard } from "./guards";
@@ -50,6 +51,7 @@ const routes: MBaseView[] = [
     ...tableRoutes,
     ...formsRoutes,
     ...chartsRoutes,
+    ...utilsRoutes,
     ...nestedRoutes,
     ...extensionRoutes,
 ];

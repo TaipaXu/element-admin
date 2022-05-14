@@ -36,6 +36,10 @@ export default {
         lineChart: 'Line Chart',
         barChart: 'Bar Chart',
     },
+    utils: {
+        name: 'Utils',
+        screenshot: 'Screenshot',
+    },
     nestedRoutes: {
         name: 'Nested Routes',
     },

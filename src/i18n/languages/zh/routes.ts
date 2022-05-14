@@ -36,6 +36,10 @@ export default {
         lineChart: '折线图',
         barChart: '柱状图',
     },
+    utils: {
+        name: '工具',
+        screenshot: '截屏',
+    },
     nestedRoutes: {
         name: '嵌套路由',
     },
