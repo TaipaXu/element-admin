@@ -31,6 +31,11 @@ export default {
         normalForm: 'Normal Form',
         validateForm: 'Validate Form',
     },
+    charts: {
+        name: 'Charts',
+        lineChart: 'Line Chart',
+        barChart: 'Bar Chart',
+    },
     nestedRoutes: {
         name: 'Nested Routes',
     },

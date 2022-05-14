@@ -31,6 +31,11 @@ export default {
         normalForm: '普通表单',
         validateForm: '表单验证',
     },
+    charts: {
+        name: '图表',
+        lineChart: '折线图',
+        barChart: '柱状图',
+    },
     nestedRoutes: {
         name: '嵌套路由',
     },
