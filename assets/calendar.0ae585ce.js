@@ -1,0 +1,1 @@
+import{d as l,C as t,r,g as s,G as d,j as u}from"./vendor.e077b336.js";const _=l({setup(c){const e=t(new Date);return(m,o)=>{const a=r("el-calendar");return s(),d("div",null,[u(a,{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=n=>e.value=n)},null,8,["modelValue"])])}}});export{_ as default};
